@@ -1,3 +1,4 @@
+//啟動機器人
 import { Client, Events, GatewayIntentBits } from "discord.js";
 import dotenv from "dotenv";
 
@@ -10,3 +11,4 @@ client.once(Events.ClientReady, (c) => {
 });
 
 client.login(process.env.TOKEN);
+//結束
